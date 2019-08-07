@@ -20,7 +20,7 @@ export class SalvarPage implements OnInit {
   salvar(){
     this.fire.list('estado').push(this.estado);
     this.estado = new Estado();
-    this.rota.navigate(['listar']);
+    this.rota.navigate(['listar-estado']);
   }
 
 }
